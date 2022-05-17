@@ -30,6 +30,6 @@ Project created by  ALONE<a href="https://github.com/Alone-Sir"TOM</a> to make i
 <div>
 <br>
   
-<a href="" target="blank"><img align="center" src="https://github.com/Alone-Sir/media/blob/master/image/DEPLOY.png" alt="Deploy bot" height="50" width="300" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Alone-Sir/TOM" target="blank"><img align="center" src="https://github.com/Alone-Sir/media/blob/master/image/DEPLOY.png" alt="Deploy bot" height="50" width="300" /></a>
   <div>
  <br>
