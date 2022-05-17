@@ -1,7 +1,7 @@
 /* codded by raashii
 use this git under copyright
 dont change credit
-*/
+*/modified by alone
 
 const Rashi = require('../events');
 const config = require('../config');
