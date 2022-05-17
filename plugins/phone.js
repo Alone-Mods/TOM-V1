@@ -5,7 +5,7 @@ const Rashi = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
-const Config = require('../zara');
+const Config = require('../tom');
 const config = require('../config');
 
 if (config.WORKTYPE == 'private') {
@@ -18,7 +18,7 @@ Rashi.addCommand({pattern: 'number', fromMe: true, desc: 'Its send owner number'
             + 'ORG:Zara fam;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=' + Config.Z_NUMBER + ':' + Config.Z_NUMBER + ' \n'
             + 'END:VCARD'
-await message.client.sendMessage(message.jid, {displayname: "Owner", vcard: Raashii}, MessageType.contact);
+await message.client.sendMessage(message.jid, {displayname: "Owner", vcard: Alone}, MessageType.contact);
 
   }));
 }
@@ -27,7 +27,7 @@ else if (config.WORKTYPE == 'public') {
 
 Rashi.addCommand({pattern: 'number', fromMe: false, desc: 'Its send owner number'}, (async (message, match) => {
          var mode = ''
-if (Config.Z_OWNER == 'Raashii') mode = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ : '
+if (Config.Z_OWNER == 'Alone') mode = 'ᴅᴇᴠᴇʟᴏᴘᴇʀ : '
 
 else mode = 'ᴏᴡɴᴇʀ : '
             
