@@ -1,5 +1,5 @@
 /* Copyright (C) 2020 Yusuf Usta.
-ZARA VERSION 2
+TOM VERSION 1
 */
 
 // Komutları burada tutacağız.
